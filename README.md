@@ -1,6 +1,6 @@
 # Gestor de Estudiantes
 
-Este programa en **Python** permite manejar una lista de estudiantes almacenados en una **base de datos SQLite**. Cada estudiante tiene un **nombre**, una **edad** y una **lista de calificaciones** que corresponden a 4 materias.  
+Este programa en **Python** permite manejar una lista de estudiantes almacenados en una **base de datos SQLite**. Cada estudiante tiene **nombre**, **edad** y una **lista de calificaciones** para cuatro materias.
 
 Cuenta con una interfaz grafica con **Tkinter**, donde se pueden realizar las siguientes acciones:
 
@@ -18,3 +18,4 @@ Cuenta con una interfaz grafica con **Tkinter**, donde se pueden realizar las si
 1. **Python 3.8 o superior**
 2. TKinter generalmente viene instalado por defecto con Python, pero en algunas distribuciones Linux puedes ejecutar:
    sudo apt-get install python3-tk
+3. Asegurarse de tener todos los **archivos** en la misma carpeta y ejecutar el archivo **main.py**
