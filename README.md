@@ -17,5 +17,5 @@ Cuenta con una interfaz grafica con **Tkinter**, donde se pueden realizar las si
 
 1. **Python 3.8 o superior**
 2. TKinter generalmente viene instalado por defecto con Python, pero en algunas distribuciones Linux puedes ejecutar:
-   sudo apt-get install python3-tk
+   `sudo apt-get install python3-tk`
 3. Asegurarse de tener todos los **archivos** en la misma carpeta y ejecutar el archivo **main.py**
