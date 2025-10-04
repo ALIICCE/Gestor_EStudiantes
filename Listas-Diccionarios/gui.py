@@ -36,9 +36,9 @@ def iniciar_gui():
                 messagebox.showerror("Error", f"Ingrese el nombre de la materia {i+1}.")
                 return
             try:
-                calificacion = float(calificacion_str)
+                calificacion = int(calificacion_str)
             except ValueError:
-                messagebox.showerror("Error", f"Ingrese una calificacion numerica valida para '{materia}'.")
+                messagebox.showerror("Error", f"Ingrese una calificacion numerica entera valida para '{materia}'.")
                 return
             if not (0 <= calificacion <= 100):
                 messagebox.showerror("Error", f"La calificacion de '{materia}' debe estar entre 0 y 100.")
